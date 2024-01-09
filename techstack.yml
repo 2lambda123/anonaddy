@@ -1,0 +1,607 @@
+repo_name: 2lambda123/anonaddy
+report_id: ceb5d9080c646400d9a6fcdbbd718ec5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:54:28+00:00'
+requested_by: willbrowningme
+provider: github
+branch: master
+detected_tools_count: 46
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: will
+  last_updated_on: 2019-06-21 13:39:52.000000000 Z
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/anonaddy
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-07-07 07:44:47.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-07-07 07:44:47.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 10.9.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2023-04-26 15:53:39.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: will
+  last_updated_on: 2019-06-21 13:39:52.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-01-06 14:31:34.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.2.47
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: will
+  last_updated_on: 2019-06-21 13:39:52.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-10-11 16:13:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/anonaddy
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 10.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: will
+  last_updated_on: 2019-06-21 13:39:52.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2021-05-14 15:39:13.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.81.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: will
+  last_updated_on: 2019-06-21 13:39:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: will
+  last_updated_on: 2019-06-21 13:39:52.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will
+  last_updated_on: 2020-08-18 13:15:23.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/anonaddy
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-10-11 16:13:31.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2021-02-01 16:42:00.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
+- name: bacon/bacon-qr-code
+  description: BaconQrCode is a QR code generator for PHP
+  package_url: https://packagist.org/bacon/bacon-qr-code
+  version: 2.0.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
+- name: doctrine/dbal
+  description: Powerful PHP database abstraction layer
+  package_url: https://packagist.org/doctrine/dbal
+  version: 3.6.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2021-06-25 13:20:03.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-07-07 07:44:47.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 10.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2023-04-26 15:53:39.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2023-04-26 15:53:39.000000000 Z
+- name: laravel/ui
+  description: Laravel UI utilities and presets
+  package_url: https://packagist.org/laravel/ui
+  version: 4.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2023-04-26 15:53:39.000000000 Z
+- name: maatwebsite/excel
+  description: Supercharged Excel exports and imports in Laravel
+  package_url: https://packagist.org/maatwebsite/excel
+  version: 3.1.48
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will
+  last_updated_on: 2020-07-22 15:25:13.000000000 Z
+- name: mews/captcha
+  description: Laravel 5/6/7/8/9/10 Captcha Package
+  package_url: https://packagist.org/mews/captcha
+  version: 3.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2019-09-26 13:09:07.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-07-07 07:44:47.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 7.5.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2023-04-26 15:53:39.000000000 Z
+- name: php-mime-mail-parser/php-mime-mail-parser
+  description: A fully tested email parser for PHP 8.0+
+  package_url: https://packagist.org/php-mime-mail-parser/php-mime-mail-parser
+  version: 8.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2023-04-26 15:53:39.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 10.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2023-04-26 15:53:39.000000000 Z
+- name: pragmarx/google2fa-laravel
+  description: A One Time Password Authentication package
+  package_url: https://packagist.org/pragmarx/google2fa-laravel
+  version: 2.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2023-04-26 15:53:39.000000000 Z
+- name: ramsey/uuid
+  description: A PHP library for generating and working with universally unique identifiers
+  package_url: https://packagist.org/ramsey/uuid
+  version: 4.7.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-11-17 09:20:35.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2020-12-20 12:24:08.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2021-02-01 16:42:00.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 6.0.49
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2021-02-01 16:42:00.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
+- name: postcss-import
+  description: PostCSS plugin to import CSS files
+  package_url: https://www.npmjs.com/postcss-import
+  version: 15.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16086/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-10-11 16:13:31.000000000 Z
+- name: resolve-url-loader
+  description: Webpack loader that resolves relative paths in url
+  package_url: https://www.npmjs.com/resolve-url-loader
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16468/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-01-06 14:31:34.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.2.47
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: will
+  last_updated_on: 2019-06-21 13:39:52.000000000 Z
+- name: vue-loader
+  description: "&gt; webpack loader for Vue Single-File Components"
+  package_url: https://www.npmjs.com/vue-loader
+  version: 17.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15901/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.7.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
+- name: vuedraggable
+  description: Draggable component for vue
+  package_url: https://www.npmjs.com/vuedraggable
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17468/default_911633508f32a5d5016c37ab38144cd661ceb682.png
+  detection_source_url: https://github.com/2lambda123/anonaddy/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Will Browning
+  last_updated_on: 2022-08-23 08:58:25.000000000 Z
